@@ -1,0 +1,10 @@
+---
+applications:
+- services:
+  - bpInfoCreds
+name: bpInfo
+memory: 256M
+instances: 1
+host: bpInfo
+domain: stage1.mybluemix.net
+path: .
